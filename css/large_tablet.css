@@ -1,0 +1,30 @@
+/* for main heading */
+.heading {
+  position: relative;
+  left: 10%;
+}
+
+.heading h1 {
+  font-size: 8rem;
+  font-weight: bolder;
+}
+
+.heading span {
+  font-size: 3rem;
+}
+
+.main_photo {
+  display: block;
+  margin: 0 3rem;
+}
+
+.main_photo img {
+  margin: 0 3rem 0 1rem;
+}
+
+/* for footer  section */
+.footer {
+  font-size: 2rem;
+  position: relative;
+  left: 5%;
+}

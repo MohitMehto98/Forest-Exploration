@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/bg.jpg") no-repeat center center/cover;
+  height: 100vh;
+  background-attachment: fixed;
+  font-family: "Raleway", sans-serif;
+}
+
+/* for main heading */
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.heading h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.heading span {
+  font-size: 1.2rem;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.main_photo {
+  display: flex;
+  justify-content: center;
+}
+
+/* for main content */
+
+.main_content {
+  width: 1177px;
+  background: white;
+  position: relative;
+  left: 6.4%;
+  padding: 3rem 0;
+  background-color: #f4f4f4;
+}
+
+.main_content h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.main_content p {
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+  font-weight: lighter;
+}
+
+/* for content section */
+
+.content {
+  background: #d5d5d5;
+  width: 1177px;
+  position: relative;
+  left: 6.4%;
+  padding: 8rem 3rem;
+  text-align: justify;
+}
+
+.content p {
+  opacity: 0.5;
+  font-weight: lighter;
+}
+
+/* for gallery section */
+
+.gallery {
+  background: #2a2929;
+  width: 1177px;
+  position: relative;
+  left: 6.4%;
+  padding: 5rem 4rem;
+  box-shadow: 0 0 20px black;
+}
+
+.navbar h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 1rem 0;
+  background: black;
+}
+
+.navbar p {
+  color: grey;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 2rem 0;
+  background: black;
+  font-size: 0.8rem;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 450px auto;
+}
+
+/* photo and content section  */
+
+/* for cameraman photo */
+.cameraman {
+  width: 1177px;
+  display: flex;
+  position: relative;
+  left: 6.4%;
+  box-shadow: 0 0 20px black;
+}
+
+.cameraman img {
+  width: 50%;
+}
+
+.white {
+  background: #d4d4d4;
+  padding: 7rem 3rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  width: 50%;
+  box-shadow: 0 0 20px black;
+}
+
+.white h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.white p {
+  font-weight: 0;
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+
+/* for man section */
+
+.man {
+  width: 1177px;
+  position: relative;
+  left: 6.4%;
+  display: flex;
+  box-shadow: 0 0 20px black;
+}
+
+.man img {
+  width: 50%;
+}
+
+.black {
+  padding: 7rem 3rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  color: white;
+  background: #2a2929;
+}
+
+.black h1 {
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.black p {
+  font-weight: 0;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+/* for woman section */
+
+.woman {
+  width: 1177px;
+  position: relative;
+  left: 6.4%;
+  display: flex;
+  box-shadow: 0 0 20px black;
+}
+
+.woman img {
+  width: 50%;
+}
+
+/* footer section */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #d5d5d5;
+  padding: 1rem 0;
+}

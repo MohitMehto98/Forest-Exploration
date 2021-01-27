@@ -1,0 +1,140 @@
+/* for main heading */
+
+.heading {
+  display: block;
+}
+
+.heading h1 {
+  /* margin-left: 30rem; */
+  position: relative;
+  left: 60%;
+  font-size: 5rem;
+}
+
+.heading span {
+  display: block;
+  margin-left: 3.5rem;
+  font-size: 2.5rem;
+}
+
+.main_photo {
+  display: block;
+  margin: 0 3rem 0 0rem;
+}
+
+.main_photo img {
+  width: 1150px;
+  margin: 0 3.5rem 0 4rem;
+}
+
+/* for main content */
+
+.main_content {
+  width: 1150px;
+  margin: 0 0rem 0 1rem;
+}
+
+/*for content section*/
+
+.content {
+  width: 1150px;
+  margin: 0 3rem 0 1rem;
+}
+
+/* for gallery section */
+
+.gallery {
+  width: 1150px;
+  margin: 0 3rem 0 1rem;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+.images img {
+  height: 600px;
+}
+
+/* photo and content section */
+
+/* for cameraman photo */
+.cameraman {
+  width: 1150px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem 0 1rem;
+}
+
+.cameraman img {
+  width: 1150px;
+}
+
+.white {
+  width: 1150px;
+  height: 600px;
+  padding: 2rem;
+  line-height: 5rem;
+  text-align: center;
+}
+
+.white h1 {
+  font-size: 5rem;
+}
+
+.white p {
+  font-size: 2.5rem;
+}
+
+/* for man section */
+
+.man {
+  width: 1150px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem 0 1rem;
+}
+
+.man img {
+  width: 1150px;
+}
+
+.black {
+  width: 1150px;
+  height: 600px;
+  line-height: 4.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.black h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.black p {
+  font-size: 2.5rem;
+}
+
+/* for woman section */
+
+.woman {
+  width: 1150px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem 0 1rem;
+}
+
+.woman img {
+  width: 1150px;
+}
+
+/* for footer section */
+
+.footer {
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+  left: 35%;
+}
